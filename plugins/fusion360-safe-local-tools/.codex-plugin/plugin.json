@@ -1,0 +1,21 @@
+{
+  "name": "fusion360-safe-local-tools",
+  "version": "0.1.0",
+  "description": "Fusion modeling workflow with protected designs, confirmed parameters and resumable size-limited exports.",
+  "author": {
+    "name": "boyan-xu"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fusion Safe Local Tools",
+    "shortDescription": "按确认要求建模、保护原设计，并控制批量导出。",
+    "longDescription": "提供 Fusion 建模操作技能、本地参数查看及经确认的 STEP/STL/3MF 导出执行器；持久记录同一对话累计大小、样本验证、警告暂停与规格恢复。复杂建模使用逐任务核实的 Fusion API/UI，不含远程执行服务。",
+    "developerName": "boyan-xu",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "根据我的要求在 Fusion 中建模或调整参数。先确认影响结果的条件，保护原设计，并在明确授权后按同一对话累计1MB规则导出。"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/boyan-xu/fusion360-safe-local-tools",
+  "repository": "https://github.com/boyan-xu/fusion360-safe-local-tools"
+}
