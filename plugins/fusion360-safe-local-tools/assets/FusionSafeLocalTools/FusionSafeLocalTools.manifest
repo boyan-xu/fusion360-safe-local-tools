@@ -1,0 +1,12 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "addin",
+  "author": "boyan-xu",
+  "description": {
+    "": "Local Fusion parameter inspection and confirmed, resumable STEP/STL/3MF export workflow."
+  },
+  "version": "0.1.0",
+  "runOnStartup": false,
+  "supportedOS": "mac",
+  "editEnabled": true
+}
